@@ -1,0 +1,24 @@
+{
+  "name": "lucca-ux-prototypes",
+  "version": "0.0.1",
+  "description": "Lucca UX prototype starting folder",
+  "main": "Gruntfile.js",
+  "author": "Sandy Goldscheider",
+  "license": "MIT",
+  "scripts": {
+    "start": "grunt"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-configs": "^1.0.0"
+  },
+  "dependencies": {
+    "@lucca-front/icons": "^0.2.3",
+    "@lucca-front/scss": "^0.2.3",
+    "normalize.css": "^8.0.0"
+  }
+}

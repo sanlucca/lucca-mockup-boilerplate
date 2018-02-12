@@ -1,0 +1,50 @@
+#lucca-banner {
+	@include elevate(1);
+	height: 50px;
+	background: white;
+	display: flex;
+	position: relative;
+	z-index: 1000;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+	
+	> * {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		cursor: pointer;
+		&.banner-right {
+			margin-left: auto;
+		}
+
+		&:not(:last-child) {
+			border-right: 1px solid #efefef;
+		}
+	}
+
+	.solutionsButton {
+		padding: 0 20px;
+		i { margin-right: 1em; }
+	}
+
+	.bannerButton {
+		width: 50px;
+		font-size: 1.2em;
+		.lucca-icon {
+			font-size: 1.5em;
+		}
+	}
+	.homeButton {
+		background-color: _color("primary");
+		color: _color("primary", "text");
+	}
+
+	.userButton {
+		background-color: teal;
+		color: white;
+	}
+}
